@@ -1,0 +1,28 @@
+main()
+{ int i,j;
+  
+  //test
+  /*this is a test*/
+  i=11;j=12;
+  //i=i+2*(j>1);
+  //show(i);
+  //break;
+  //if(j>13){show(j);}
+  int k=10;
+  int l=0;
+  while(k>0)
+  {
+      k=k-1;
+      if(k<5){break;}
+      show(k);
+  }
+  k=10;
+  show(';');
+  while(k>0)
+  {
+      k=k-1;
+      if(k==3){continue;}
+      show(k);
+  }
+  show(j);
+}
